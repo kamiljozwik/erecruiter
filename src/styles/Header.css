@@ -1,0 +1,9 @@
+.Header-navbar {
+  width: 100%;
+  background-color: #009688;
+  display: flex;
+  justify-content: space-between; }
+  .Header-navbar .Proj-title {
+    font-size: 32px;
+    margin: 10px 10px 10px 60px;
+    color: #dcdfe5; }

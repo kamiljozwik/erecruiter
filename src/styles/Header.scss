@@ -1,0 +1,14 @@
+$HeaderColor: #009688; // Teal
+$TextColor: #dcdfe5;
+
+.Header-navbar {
+  width: 100%;
+  background-color: $HeaderColor;
+  display: flex;
+  justify-content: space-between;
+  .Proj-title {
+    font-size: 32px;
+    margin: 10px 10px 10px 60px;
+    color: $TextColor
+  }
+}
