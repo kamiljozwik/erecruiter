@@ -1,8 +1,6 @@
-import { combineReducers } from 'redux';
-//import ExampleReducer1 from './ExampleReducer1';
-//import ExampleReducer2 from './ExampleReducer2';
+import {combineReducers} from 'redux';
+import weather from './fetch-Weather-Reducer';
 
 export default combineReducers({
-	//data1: ExampleReducer1,  // data1 dostępne jako częśc stanu aplikacji (state.data1)
-	//data2: ExampleReducer2
+	weather
 });
