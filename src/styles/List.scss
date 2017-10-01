@@ -1,0 +1,36 @@
+@font-face{
+ font-family:'digital-7';
+ src: url('/fonts/digital-7.ttf');
+}
+
+.List-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .ListItem-wrapper {
+    display: flex;
+    margin: 10px;
+    .item-frame {
+      display: flex;
+      align-items: center;
+      border: 1px solid red;
+      .item-date {
+        font-family: 'digital-7';
+        font-size: 26px;
+        margin: 10px;
+        .utc {
+          font-size: 12px;
+          font-family: arial;
+        };
+      };
+      .item-temp {
+        font-size: 32px;
+      }
+      img {
+        width: 50px;
+        height: auto;
+        margin-left: 10px;
+      }
+    }
+  }
+}

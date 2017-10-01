@@ -1,2 +1,12 @@
 .Footer-wrapper {
-  color: red; }
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0; }
+  .Footer-wrapper .footer-frame {
+    background-color: #424242;
+    color: #F5F5F5;
+    height: 70px; }
+    .Footer-wrapper .footer-frame p {
+      margin: 0px;
+      padding: 4px; }

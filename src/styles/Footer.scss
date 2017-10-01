@@ -1,3 +1,15 @@
 .Footer-wrapper {
-color: red;  
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  .footer-frame {
+    background-color: #424242;
+    color: #F5F5F5;
+    height: 70px;
+    p {
+      margin: 0px;
+      padding: 4px;
+    }
+  }
 }

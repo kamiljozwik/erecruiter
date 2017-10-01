@@ -1,0 +1,34 @@
+.Actual-wrapper {
+  display: flex;
+  justify-content: center; }
+  .Actual-wrapper .actual-frame {
+    margin: 20px;
+    border: #B3E5FC solid 1px;
+    width: 25%;
+    background-color: #B3E5FC;
+    position: relative; }
+    .Actual-wrapper .actual-frame .Humidity, .Actual-wrapper .actual-frame .Pressure {
+      margin: 0;
+      padding-left: 10px;
+      font-size: 14px;
+      color: #03A9F4; }
+    .Actual-wrapper .actual-frame .Temperature {
+      margin: 0;
+      padding: 10px;
+      font-size: 36px; }
+    .Actual-wrapper .actual-frame .City-country {
+      margin: 0;
+      padding: 10px;
+      font-size: 14px; }
+    .Actual-wrapper .actual-frame img {
+      position: absolute;
+      top: 0;
+      right: 20px;
+      width: 30%;
+      height: auto; }
+
+.not-found {
+  text-align: center;
+  margin: 20px;
+  font-size: 28px;
+  color: #EF5350; }

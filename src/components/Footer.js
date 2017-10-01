@@ -6,7 +6,10 @@ class Footer extends Component {
   render(){
     return(
       <div className='Footer-wrapper'>
-        Footer
+        <div className='footer-frame'>
+          <p className='author'>Author: Kamil Jozwik</p>
+          <p className='email'>email: kamiljozwikpl@gmail.com</p>
+        </div>
       </div>
     );
   }
