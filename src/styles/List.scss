@@ -19,12 +19,17 @@
 		animation-name: entry;
 		animation-duration: 3s;
 		animation-fill-mode: forwards;
+		&:nth-child(2n) {
+			.item-frame {
+				background: linear-gradient(to right, #fff 0, #8bc34a 100%);
+			}
+		}
 		.item-frame {
 			display: flex;
 			align-items: center;
 			justify-content: space-between;
 			width: 300px;
-			// background: linear-gradient(to right, #fff 0, #1976d2 100%);
+			background: linear-gradient(to right, #fff 0, #1976d2 100%);
 			box-shadow: 10px 7px 10px #353638;
 			.item-date {
 				font-family: 'digital-7';
@@ -61,6 +66,7 @@
 		}
 	}
 }
+
 @keyframes entry {
 	from {
 		transform: translateX(0);
