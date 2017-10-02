@@ -1,3 +1,7 @@
+@font-face {
+  font-family: 'roboto-medium';
+  src: url("/fonts/roboto/Roboto-Medium.ttf"); }
+
 .Search-wrapper {
   display: flex;
   justify-content: center; }
@@ -23,6 +27,7 @@
     .Search-wrapper .Search-form .form-button {
       margin-left: 20px;
       font-weight: 500;
+      font-family: 'roboto-medium';
       background-color: #26a69a;
       color: #eaefed;
       border: none;
