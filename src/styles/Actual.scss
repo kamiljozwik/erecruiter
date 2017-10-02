@@ -1,3 +1,5 @@
+@import 'mqMixin.scss';
+
 $textColor: #313438;
 
 .Actual-wrapper {
@@ -7,6 +9,9 @@ $textColor: #313438;
 		margin: 20px;
 		border: #b3e5fc solid 1px;
 		width: 25%;
+		@include mQ(768px) {
+			width: 60%;
+		}
 		background-color: #b3e5fc;
 		position: relative;
 		box-shadow: 10px 7px 10px #353638;
@@ -22,6 +27,9 @@ $textColor: #313438;
 			padding-left: 30px;
 			font-size: 52px;
 			color: $textColor;
+			@include mQ(986px) {
+				font-size: 42px;
+			}
 		}
 		.City-country {
 			margin: 0;
@@ -38,6 +46,19 @@ $textColor: #313438;
 			right: 20px;
 			width: 40%;
 			height: auto;
+			@include mQ(986px) {
+				width: 30%;
+				margin-top: 20px;
+			}
+			@include mQ(768px) {
+				margin-top: 0;
+			}
+			@include mQ(480px) {
+				margin-top: 20px;
+			}
+			@include mQ(365px) {
+				display: none;
+			}
 		}
 	}
 }

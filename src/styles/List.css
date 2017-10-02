@@ -30,13 +30,27 @@
         .List-wrapper .ListItem-wrapper .item-frame .item-date .utc {
           font-size: 12px;
           font-family: arial; }
+          @media screen and (max-width: 365px) {
+            .List-wrapper .ListItem-wrapper .item-frame .item-date .utc {
+              display: none; } }
       .List-wrapper .ListItem-wrapper .item-frame .item-temp {
         font-size: 32px;
         color: #313438; }
+        @media screen and (max-width: 480px) {
+          .List-wrapper .ListItem-wrapper .item-frame .item-temp {
+            margin-right: 10px;
+            font-size: 26px;
+            color: #e3e6ed; } }
+        @media screen and (max-width: 365px) {
+          .List-wrapper .ListItem-wrapper .item-frame .item-temp {
+            font-size: 18px; } }
       .List-wrapper .ListItem-wrapper .item-frame img {
         width: 50px;
         height: auto;
         margin-right: 10px; }
+        @media screen and (max-width: 480px) {
+          .List-wrapper .ListItem-wrapper .item-frame img {
+            display: none; } }
 
 @keyframes entry {
   from {

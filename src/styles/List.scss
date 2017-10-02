@@ -1,3 +1,5 @@
+@import 'mqMixin.scss';
+
 @font-face {
 	font-family: 'digital-7';
 	src: url('/fonts/digital-7.ttf');
@@ -31,16 +33,30 @@
 				.utc {
 					font-size: 12px;
 					font-family: arial;
+					@include mQ(365px) {
+						display: none;
+					}
 				}
 			}
 			.item-temp {
 				font-size: 32px;
 				color: #313438;
+				@include mQ(480px) {
+					margin-right: 10px;
+					font-size: 26px;
+					color: #e3e6ed;
+				}
+				@include mQ(365px) {
+					font-size: 18px;
+				}
 			}
 			img {
 				width: 50px;
 				height: auto;
 				margin-right: 10px;
+				@include mQ(480px) {
+					display: none;
+				}
 			}
 		}
 	}

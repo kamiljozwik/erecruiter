@@ -1,37 +1,51 @@
+@import 'mqMixin.scss';
+
 .Search-wrapper {
-  display: flex;
-  justify-content: center;
-  .Search-form{
-    margin-top: 40px;
-    .form-input{
-      outline: none;
-      border: 0;
-      color: #00796B;
-      border-bottom: 1px solid #7d8084;
-      font-size: 32px;
-      &::-webkit-input-placeholder {
-        color: #E0F2F1;
-      }
-      &:focus{
-      border-bottom: 1px solid #009688;
-      }
-    }
-    .form-button {
-      margin-left: 20px;
-      font-weight: 500;
-      background-color: #26A69A;
-      color: #eaefed;
-      border: none;
-      width: 100px;
-      padding: 10px;
-      cursor: pointer;
-      transition: 0.7s;
-      &:hover{
-        background-color: #80CBC4;
-      }
-      .fa {
-        padding-right: 10px;
-      }
-    }
-  }
+	display: flex;
+	justify-content: center;
+	.Search-form {
+		margin-top: 40px;
+		.form-input {
+			outline: none;
+			border: 0;
+			color: #00796b;
+			border-bottom: 1px solid #7d8084;
+			font-size: 32px;
+			&::-webkit-input-placeholder {
+				color: #e0f2f1;
+			}
+			&:focus {
+				border-bottom: 1px solid #009688;
+			}
+			@include mQ(768px) {
+				width: 60%;
+			}
+			@include mQ(480px) {
+				width: 80%;
+				margin-left: 20px;
+			}
+		}
+		.form-button {
+			margin-left: 20px;
+			font-weight: 500;
+			background-color: #26a69a;
+			color: #eaefed;
+			border: none;
+			width: 100px;
+			@include mQ(480px) {
+				width: 100%;
+				margin-top: 10px;
+				margin-left: 0;
+			}
+			padding: 10px;
+			cursor: pointer;
+			transition: 0.7s;
+			&:hover {
+				background-color: #80cbc4;
+			}
+			.fa {
+				padding-right: 10px;
+			}
+		}
+	}
 }
