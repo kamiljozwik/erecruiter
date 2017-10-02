@@ -13,3 +13,4 @@ Project overview:
 * CSS preprocessor - SASS
 * style write totally using SASS (no CSS libralies)
 * Responsive layout
+* every even list item with different color
