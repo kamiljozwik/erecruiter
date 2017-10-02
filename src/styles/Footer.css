@@ -4,9 +4,11 @@
   bottom: 0;
   left: 0; }
   .Footer-wrapper .footer-frame {
+    display: flex;
+    align-items: center;
     background-color: #424242;
-    color: #F5F5F5;
-    height: 70px; }
-    .Footer-wrapper .footer-frame p {
-      margin: 0px;
+    color: #f5f5f5;
+    height: 30px; }
+    .Footer-wrapper .footer-frame span {
+      margin-left: 10px;
       padding: 4px; }

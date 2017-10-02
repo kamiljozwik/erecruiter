@@ -1,41 +1,50 @@
+$textColor: #313438;
+
 .Actual-wrapper {
-  display: flex;
-  justify-content: center;
-  .actual-frame {
-    margin: 20px;
-    border: #B3E5FC solid 1px;
-    width: 25%;
-    background-color: #B3E5FC;
-    position: relative;
-    .Humidity, .Pressure{
-      margin: 0;
-      padding-left: 10px;
-      font-size: 14px;
-      color: #03A9F4;
-    }
-    .Temperature {
-      margin: 0;
-      padding: 10px;
-      font-size: 36px;
-    }
-    .City-country {
-      margin: 0;
-      padding: 10px;
-      font-size: 14px;
-    }
-    img {
-      position: absolute;
-      top: 0;
-      right: 20px;
-      width: 30%;
-      height: auto;
-    }
-  }
+	display: flex;
+	justify-content: center;
+	.actual-frame {
+		margin: 20px;
+		border: #b3e5fc solid 1px;
+		width: 25%;
+		background-color: #b3e5fc;
+		position: relative;
+		box-shadow: 10px 7px 10px #353638;
+		.Humidity,
+		.Pressure {
+			margin: 0;
+			padding-left: 10px;
+			font-size: 14px;
+			color: $textColor;
+		}
+		.Temperature {
+			margin: 0;
+			padding-left: 30px;
+			font-size: 52px;
+			color: $textColor;
+		}
+		.City-country {
+			margin: 0;
+			padding-top: 5px;
+			padding-bottom: 5px;
+			padding-left: 10px;
+			font-size: 14px;
+			color: $textColor;
+			background: linear-gradient(to right, #81d4fa 0, #b3e5fc 70%);
+		}
+		img {
+			position: absolute;
+			top: 0;
+			right: 20px;
+			width: 40%;
+			height: auto;
+		}
+	}
 }
 
 .not-found {
-  text-align: center;
-  margin: 20px;
-  font-size: 28px;
-  color: #EF5350;
+	text-align: center;
+	margin: 20px;
+	font-size: 28px;
+	color: #ef5350;
 }

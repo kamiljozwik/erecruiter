@@ -3,32 +3,39 @@
   justify-content: center; }
   .Actual-wrapper .actual-frame {
     margin: 20px;
-    border: #B3E5FC solid 1px;
+    border: #b3e5fc solid 1px;
     width: 25%;
-    background-color: #B3E5FC;
-    position: relative; }
-    .Actual-wrapper .actual-frame .Humidity, .Actual-wrapper .actual-frame .Pressure {
+    background-color: #b3e5fc;
+    position: relative;
+    box-shadow: 10px 7px 10px #353638; }
+    .Actual-wrapper .actual-frame .Humidity,
+    .Actual-wrapper .actual-frame .Pressure {
       margin: 0;
       padding-left: 10px;
       font-size: 14px;
-      color: #03A9F4; }
+      color: #313438; }
     .Actual-wrapper .actual-frame .Temperature {
       margin: 0;
-      padding: 10px;
-      font-size: 36px; }
+      padding-left: 30px;
+      font-size: 52px;
+      color: #313438; }
     .Actual-wrapper .actual-frame .City-country {
       margin: 0;
-      padding: 10px;
-      font-size: 14px; }
+      padding-top: 5px;
+      padding-bottom: 5px;
+      padding-left: 10px;
+      font-size: 14px;
+      color: #313438;
+      background: linear-gradient(to right, #81d4fa 0, #b3e5fc 70%); }
     .Actual-wrapper .actual-frame img {
       position: absolute;
       top: 0;
       right: 20px;
-      width: 30%;
+      width: 40%;
       height: auto; }
 
 .not-found {
   text-align: center;
   margin: 20px;
   font-size: 28px;
-  color: #EF5350; }
+  color: #ef5350; }
