@@ -29,5 +29,5 @@ artifacts:
   files:
     - WeatherListBuild.zip
     # - location
-  discard-paths: yes
   #base-directory: 'output'
+  #discard-paths: yes
