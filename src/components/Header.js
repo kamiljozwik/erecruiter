@@ -8,7 +8,7 @@ class Header extends Component {
       <div className='Header-wrapper'>
         <div className='Header-navbar'>
           <div className='Proj-title'>
-            Weather List App
+            Weather List App by Kam
           </div>
         </div>
       </div>
