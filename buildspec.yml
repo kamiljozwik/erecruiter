@@ -25,8 +25,8 @@ phases:
     #commands:
       # - command
       # - command
-#artifacts:
-  #files:
+artifacts:
+  files:
      - WeatherListBuild.zip
     # - location
   base-directory: 'build'
