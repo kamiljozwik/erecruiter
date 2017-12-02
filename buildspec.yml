@@ -25,9 +25,9 @@ phases:
     #commands:
       # - command
       # - command
-#artifacts:
-  #files:
+artifacts:
+  files:
+    - '**/*'
     # - location
-    # - location
-  #discard-paths: yes
-  #base-directory: location
+  discard-paths: yes
+  base-directory: 'output'
